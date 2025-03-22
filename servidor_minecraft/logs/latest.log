@@ -1,110 +1,95 @@
-[20:28:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[20:28:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[20:28:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:28:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/sleep-most-5.5.3.jar'...
-[20:28:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/sleep-most-5.5.3.jar' in 974ms.
-[20:28:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[20:28:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[18:32:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[18:32:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[18:32:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:32:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[18:32:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - AngelChest (13.9.4), sleep-most (5.5.3)
-[20:28:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:28:33] [ServerMain/INFO]: Loaded 1337 recipes
-[20:28:33] [ServerMain/INFO]: Loaded 1448 advancements
-[20:28:33] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[20:28:33] [Server thread/INFO]: Loading properties
-[20:28:33] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[20:28:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:28:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:28:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:28:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:28:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:28:35] [Server thread/INFO]: Default game type: SURVIVAL
-[20:28:35] [Server thread/INFO]: Generating keypair
-[20:28:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:28:35] [Server thread/INFO]: Using epoll channel type
-[20:28:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:28:35] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:28:36] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
-[20:28:36] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
-[20:28:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:28:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:28:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:28:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:28:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:28:36] [Server thread/INFO]: Preparing level "world"
-[20:28:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:28:37] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:28:38] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 240.3ms
-[20:28:38] [Server thread/INFO]: Preparing spawn area: 0%
-[20:28:38] [Server thread/INFO]: Preparing spawn area: 0%
-[20:28:38] [Server thread/INFO]: Preparing spawn area: 0%
-[20:28:38] [Server thread/INFO]: Time elapsed: 1311 ms
-[20:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:28:38] [Server thread/INFO]: Preparing spawn area: 0%
-[20:28:38] [Server thread/INFO]: Time elapsed: 212 ms
-[20:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:28:38] [Server thread/INFO]: Preparing spawn area: 0%
-[20:28:39] [Server thread/INFO]: Time elapsed: 124 ms
-[20:28:39] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
-[20:28:39] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
-[20:28:39] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[20:28:39] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[20:28:39] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[20:28:39] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[20:28:39] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[20:28:40] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:28:40] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
-[20:28:40] [Server thread/INFO]: [spark] Starting background profiler...
-[20:28:40] [Server thread/INFO]: Done preparing level "world" (3.758s)
-[20:28:40] [Server thread/INFO]: Running delayed init tasks
-[20:28:40] [Server thread/INFO]: Done (15.070s)! For help, type "help"
-[20:28:43] [Server thread/INFO]: [AngelChest] ========================================================
-[20:28:43] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[20:28:43] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[20:28:43] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[20:28:43] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[20:28:43] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[20:28:43] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[20:28:43] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[20:28:43] [Server thread/INFO]: [AngelChest] 
-[20:28:43] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[20:28:43] [Server thread/INFO]: [AngelChest] ========================================================
-[20:28:59] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
-[20:29:00] [Server thread/INFO]: Xua057 joined the game
-[20:29:00] [Server thread/INFO]: Xua057[/127.5.31.25:40933] logged in with entity id 77 at ([world]47.23978930187839, 73.1839099429977, 25.43856790007963)
-[20:29:33] [Server thread/INFO]: Xua057 issued server command: /sleepmost
-[20:30:17] [Server thread/INFO]: Xua057 lost connection: Disconnected
-[20:30:17] [Server thread/INFO]: Xua057 left the game
-[20:30:21] [Server thread/INFO]: Stopping server
-[20:30:21] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
-[20:30:21] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.5.3
-[20:30:21] [Server thread/INFO]: Saving players
-[20:30:21] [Server thread/INFO]: Saving worlds
-[20:30:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:30:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:30:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:30:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Saved 1090 block chunks, 752 entity chunks, 0 poi chunks in world 'world' in 1.95s
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:30:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:30:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:30:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:30:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:30:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:30:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:30:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:30:23] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[20:30:23] [Server thread/INFO]: All I/O tasks to complete
-[20:30:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:30:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:32:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:32:54] [ServerMain/INFO]: Loaded 1337 recipes
+[18:32:54] [ServerMain/INFO]: Loaded 1448 advancements
+[18:32:55] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[18:32:55] [Server thread/INFO]: Loading properties
+[18:32:55] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[18:32:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:32:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:32:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:32:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:32:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:32:57] [Server thread/INFO]: Default game type: SURVIVAL
+[18:32:57] [Server thread/INFO]: Generating keypair
+[18:32:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:32:57] [Server thread/INFO]: Using epoll channel type
+[18:32:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:32:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:32:58] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
+[18:32:58] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[18:32:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:32:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:32:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:32:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:32:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:32:58] [Server thread/INFO]: Preparing level "world"
+[18:32:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:33:00] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:33:00] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 517.2ms
+[18:33:01] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:01] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:01] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:01] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:01] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:02] [Server thread/INFO]: Time elapsed: 2246 ms
+[18:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:33:02] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:02] [Server thread/INFO]: Time elapsed: 283 ms
+[18:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:33:02] [Server thread/INFO]: Preparing spawn area: 0%
+[18:33:02] [Server thread/INFO]: Time elapsed: 161 ms
+[18:33:02] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
+[18:33:02] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[18:33:03] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[18:33:03] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[18:33:03] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[18:33:03] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[18:33:03] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[18:33:03] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:33:03] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[18:33:03] [Server thread/INFO]: [spark] Starting background profiler...
+[18:33:04] [Server thread/INFO]: Done preparing level "world" (5.459s)
+[18:33:04] [Server thread/INFO]: Running delayed init tasks
+[18:33:04] [Server thread/INFO]: Done (19.317s)! For help, type "help"
+[18:33:04] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
+[18:33:06] [Server thread/INFO]: Xua057 joined the game
+[18:33:06] [Server thread/INFO]: Xua057[/127.5.31.25:45851] logged in with entity id 91 at ([world]28.718813698622025, 74.24865297587185, 22.85940943088035)
+[18:33:07] [Server thread/INFO]: [AngelChest] ========================================================
+[18:33:07] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[18:33:07] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[18:33:07] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[18:33:07] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[18:33:07] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[18:33:07] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[18:33:07] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[18:33:07] [Server thread/INFO]: [AngelChest] 
+[18:33:07] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[18:33:07] [Server thread/INFO]: [AngelChest] ========================================================
+[18:33:24] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
+[18:33:24] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
+[18:34:30] [Server thread/INFO]: Xua057 issued server command: /time set 0
+[18:34:30] [Server thread/INFO]: [Xua057: Set the time to 0]
+[18:34:59] [User Authenticator #1/INFO]: UUID of player SMITEX89 is b5503f1a-efdb-3b53-8c91-411bd8517fa0
+[18:35:01] [Server thread/INFO]: SMITEX89 joined the game
+[18:35:01] [Server thread/INFO]: SMITEX89[/127.106.48.104:46807] logged in with entity id 511 at ([world]5.5, 71.0, -2.5)
+[18:35:05] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> hey?
+[18:35:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> where are you? Hey
+[18:35:56] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> at spawn\
+[18:36:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> for me the server aint lagging
+[18:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> why i am unable to chop tree
+[18:36:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> I perfectly can
+[18:36:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> odd
+[18:36:35] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> may be i have to wait to be load
+[18:36:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> wait, I need to dinner rn
+[18:36:44] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> srry
+[18:36:46] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> ok lemme grind
+[18:36:48] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> cya
+[18:36:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> gl
+[18:38:33] [Server thread/INFO]: SMITEX89 has made the advancement [Stone Age]
+[18:38:42] [Server thread/INFO]: SMITEX89 has made the advancement [Getting an Upgrade]

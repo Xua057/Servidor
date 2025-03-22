@@ -22,16 +22,16 @@ sleep:
     calculation-method: percentage
     percentage-required: 0.5
     players-required: 5
-    mob-no-target: true
+    mob-no-target: false
     use-exempt: false
     use-afk: false
     use-bossbar: false
     use-sound-night-skipped: false
     use-sound-storm-skipped: false
-    use-title-night-skipped: false
-    use-title-storm-skipped: false
-    exempt-creative: false
-    exempt-spectator: false
+    use-title-night-skipped: true
+    use-title-storm-skipped: true
+    exempt-creative: true
+    exempt-spectator: true
     prevent-sleep: false
     prevent-phantom: false
     nightcycle-animation: false
