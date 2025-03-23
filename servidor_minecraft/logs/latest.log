@@ -1,150 +1,112 @@
-[18:53:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[18:53:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[18:53:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:53:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[18:53:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[19:26:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[19:26:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - AngelChest (13.9.4), sleep-most (5.5.3)
-[18:53:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:53:19] [ServerMain/INFO]: Loaded 1337 recipes
-[18:53:19] [ServerMain/INFO]: Loaded 1448 advancements
-[18:53:19] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[18:53:19] [Server thread/INFO]: Loading properties
-[18:53:19] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[18:53:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:53:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:53:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:53:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:53:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[18:53:21] [Server thread/INFO]: Default game type: SURVIVAL
-[18:53:21] [Server thread/INFO]: Generating keypair
-[18:53:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:53:21] [Server thread/INFO]: Using epoll channel type
-[18:53:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:53:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:53:22] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
-[18:53:22] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
-[18:53:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:53:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:53:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:53:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:53:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:53:22] [Server thread/INFO]: Preparing level "world"
-[18:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:53:23] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:23] [Server thread/INFO]: Preparing spawn area: 2%
-[18:53:23] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[18:53:24] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 418.1ms
-[18:53:24] [Server thread/INFO]: Preparing spawn area: 2%
-[18:53:24] [Server thread/INFO]: Preparing spawn area: 24%
-[18:53:25] [Server thread/INFO]: Time elapsed: 1835 ms
-[18:53:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:53:25] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:25] [Server thread/INFO]: Time elapsed: 313 ms
-[18:53:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:53:25] [Server thread/INFO]: Preparing spawn area: 0%
-[18:53:25] [Server thread/INFO]: Time elapsed: 167 ms
-[18:53:25] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
-[18:53:25] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
-[18:53:26] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[18:53:26] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[18:53:26] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[18:53:26] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[18:53:26] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[18:53:27] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[18:53:27] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
-[18:53:27] [Server thread/INFO]: [spark] Starting background profiler...
-[18:53:27] [Server thread/INFO]: Done preparing level "world" (5.139s)
-[18:53:27] [Server thread/INFO]: Running delayed init tasks
-[18:53:27] [Server thread/INFO]: Done (19.484s)! For help, type "help"
-[18:53:30] [Server thread/INFO]: [AngelChest] ========================================================
-[18:53:30] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[18:53:30] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[18:53:30] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[18:53:30] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[18:53:30] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[18:53:30] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[18:53:30] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[18:53:30] [Server thread/INFO]: [AngelChest] 
-[18:53:30] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[18:53:30] [Server thread/INFO]: [AngelChest] ========================================================
-[18:55:08] [User Authenticator #0/INFO]: UUID of player SMITEX89 is b5503f1a-efdb-3b53-8c91-411bd8517fa0
-[18:55:09] [Server thread/INFO]: SMITEX89 joined the game
-[18:55:09] [Server thread/INFO]: SMITEX89[/127.106.48.104:50891] logged in with entity id 22 at ([world]418.38208602351574, 32.0, -695.3000000119209)
-[18:55:16] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
-[18:55:17] [Server thread/INFO]: Xua057 joined the game
-[18:55:17] [Server thread/INFO]: Xua057[/127.5.31.25:56225] logged in with entity id 272 at ([world]415.879689345887, 35.0, -695.5864973664991)
-[18:55:41] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> hey?
-[18:55:45] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> hey
-[18:55:49] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> lets continue here
-[18:56:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> lets first get out from here
-[18:56:34] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> so
-[18:56:48] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> base in desert?
-[18:56:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Ok, we need to plan where we will do the underground base
-[18:56:53] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> yep
-[18:56:57] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> wait
-[18:57:10] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> we cant build underground in desert its not gonna look good then
-[18:57:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Oh, thats true
-[18:57:18] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> we will build on surface now
-[18:57:21] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> see
-[18:57:27] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i need shovel almpost 4-5
-[18:57:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Ok, I have stone for 20 novels
-[18:58:12] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> do you actually think that mining alot of sand with stone shovel will be a good idea
-[18:58:15] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> -_-
-[18:58:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> I used to do it in that way
-[18:58:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> but take iron if you need
-[18:58:33] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i need alot of sand
-[18:58:40] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i have plan for build
-[18:58:43] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> its gonna look amazing
-[18:58:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Im going to let you cook
-[18:58:56] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> yeah
-[18:59:36] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> do some armor if needed
-[18:59:49] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> okay
-[18:59:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> perhaps I should try doing a breader of villagers in the meanwhile
-[18:59:56] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i am going to grind some sand
-[18:59:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Ok
-[19:02:45] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> whats your fav dish?
-[19:02:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> mmm
-[19:02:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> A durum
-[19:03:33] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> so i counted
-[19:03:38] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> we need 645 sand stones
-[19:03:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> holy damn...
-[19:04:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> Im right now doing the breader
-[19:05:15] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> thats not alot
-[19:05:19] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> we only need
-[19:05:21] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> 10 stack
-[19:05:23] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> of sand
-[19:05:36] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> it sounds like a lot for me
-[19:05:41] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> lol
-[19:05:42] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> but I dont really build a lot
-[19:05:57] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> s
-[19:05:58] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> oh
-[19:06:54] [Server thread/INFO]: Xua057 has made the advancement [Sweet Dreams]
-[19:07:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> Smitex, would you like to see an animation at sleeping?
-[19:07:27] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> yeah
-[19:07:34] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> thats not neccasaryt
-[19:07:39] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> its fine i think so
-[19:07:43] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> let me change in the next day, I know its not needed
-[19:09:34] [Async Chat Thread - #8/INFO]: [Not Secure] <SMITEX89> wait i am afk for 5 mi9nutes
-[19:09:38] [Async Chat Thread - #8/INFO]: [Not Secure] <Xua057> ok
-[19:14:26] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> idk if i am back or not
-[19:14:32] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> why?
-[19:15:00] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> its 12;40 am and my dad is siting in my room for some reason
-[19:15:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> dang
-[19:16:33] [Async Chat Thread - #12/INFO]: [Not Secure] <SMITEX89> you need base to be build quick or can i take some time?
-[19:16:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Xua057> you can take your time
-[19:16:53] [Async Chat Thread - #12/INFO]: [Not Secure] <Xua057> Afterall, youre the one building it
-[19:18:18] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> oh no
-[19:18:22] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> i was wrong
-[19:18:24] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> what happened?
-[19:18:39] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> we need 10 stack of sand stone
-[19:18:50] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> and 8 stack of sand made 2 stack of sand stone
-[19:19:04] [Async Chat Thread - #15/INFO]: [Not Secure] <Xua057> I recommend you mining it
-[19:19:12] [Async Chat Thread - #15/INFO]: [Not Secure] <SMITEX89> yeah i am doing
-[19:19:14] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> just under the sand, there is sand stone
-[19:19:28] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> oh yeah
-[19:19:40] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> i didnt think about it
-[19:19:41] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> did you got dirt?
-[19:19:49] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> no
-[19:19:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> ok
-[19:23:08] [Async Chat Thread - #16/INFO]: [Not Secure] <Xua057> how is going the building anyways?
-[19:23:16] [Async Chat Thread - #16/INFO]: [Not Secure] <SMITEX89> still grinding
+[19:26:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:26:52] [ServerMain/INFO]: Loaded 1337 recipes
+[19:26:52] [ServerMain/INFO]: Loaded 1448 advancements
+[19:26:53] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[19:26:53] [Server thread/INFO]: Loading properties
+[19:26:53] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[19:26:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:26:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:26:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:26:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:26:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:26:55] [Server thread/INFO]: Default game type: SURVIVAL
+[19:26:55] [Server thread/INFO]: Generating keypair
+[19:26:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:26:55] [Server thread/INFO]: Using epoll channel type
+[19:26:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:26:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:26:55] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
+[19:26:55] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[19:26:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:26:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:26:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:26:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:26:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:26:56] [Server thread/INFO]: Preparing level "world"
+[19:26:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:26:57] [Server thread/INFO]: Preparing spawn area: 0%
+[19:26:57] [Server thread/INFO]: Preparing spawn area: 2%
+[19:26:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[19:26:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 327.0ms
+[19:26:57] [Server thread/INFO]: Preparing spawn area: 12%
+[19:26:58] [Server thread/INFO]: Preparing spawn area: 24%
+[19:26:58] [Server thread/INFO]: Time elapsed: 1536 ms
+[19:26:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:26:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:26:58] [Server thread/INFO]: Time elapsed: 240 ms
+[19:26:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:26:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:26:58] [Server thread/INFO]: Time elapsed: 149 ms
+[19:26:58] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
+[19:26:58] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[19:26:59] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[19:26:59] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[19:26:59] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[19:26:59] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[19:26:59] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[19:27:00] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:27:00] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[19:27:00] [Server thread/INFO]: [spark] Starting background profiler...
+[19:27:00] [Server thread/INFO]: Done preparing level "world" (4.377s)
+[19:27:00] [Server thread/INFO]: Running delayed init tasks
+[19:27:00] [Server thread/INFO]: Done (17.837s)! For help, type "help"
+[19:27:03] [Server thread/INFO]: [AngelChest] ========================================================
+[19:27:03] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[19:27:03] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[19:27:03] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[19:27:03] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[19:27:03] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[19:27:03] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[19:27:03] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[19:27:03] [Server thread/INFO]: [AngelChest] 
+[19:27:03] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[19:27:03] [Server thread/INFO]: [AngelChest] ========================================================
+[19:27:13] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
+[19:27:14] [Server thread/INFO]: Xua057 joined the game
+[19:27:14] [Server thread/INFO]: Xua057[/127.5.31.25:54413] logged in with entity id 22 at ([world]245.85277810347742, 67.1212968405392, -696.8309826561274)
+[19:27:14] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d9c5c887-f0f8-4db6-878a-75821b566fec, mapped to Rabbit['Rabbit'/27, uuid='d9c5c887-f0f8-4db6-878a-75821b566fec', l='ServerLevel[world]', x=271.95, y=67.20, z=-683.44, cpos=[16, -43], tl=53111, v=true], can't add Rabbit['Rabbit'/30, uuid='d9c5c887-f0f8-4db6-878a-75821b566fec', l='ServerLevel[world]', x=272.11, y=67.00, z=-683.42, cpos=[17, -43], tl=53102, v=false]
+[19:27:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45ff8490-80fb-494a-8293-148fbcfdc234, mapped to Bat['Bat'/41, uuid='45ff8490-80fb-494a-8293-148fbcfdc234', l='ServerLevel[world]', x=274.88, y=-17.49, z=-656.74, cpos=[17, -42], tl=445, v=true], can't add Bat['Bat'/47, uuid='45ff8490-80fb-494a-8293-148fbcfdc234', l='ServerLevel[world]', x=276.12, y=-17.13, z=-655.47, cpos=[17, -41], tl=451, v=false]
+[19:27:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d09435d3-d3c8-4033-a8b9-c65a27c463cb, mapped to Villager['Farmer'/97, uuid='d09435d3-d3c8-4033-a8b9-c65a27c463cb', l='ServerLevel[world]', x=365.98, y=67.00, z=-705.52, cpos=[22, -45], tl=91945, v=true], can't add Villager['Farmer'/135, uuid='d09435d3-d3c8-4033-a8b9-c65a27c463cb', l='ServerLevel[world]', x=379.42, y=64.00, z=-717.47, cpos=[23, -45], tl=97941, v=false]
+[19:27:18] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7936a733-0451-4ece-ba3f-6d3ae37d1452, mapped to Pufferfish['Pufferfish'/225, uuid='7936a733-0451-4ece-ba3f-6d3ae37d1452', l='ServerLevel[world]', x=354.25, y=57.22, z=-815.25, cpos=[22, -51], tl=85, v=true], can't add Pufferfish['Pufferfish'/245, uuid='7936a733-0451-4ece-ba3f-6d3ae37d1452', l='ServerLevel[world]', x=355.07, y=58.29, z=-816.07, cpos=[22, -52], tl=102, v=false]
+[19:29:21] [User Authenticator #1/INFO]: UUID of player SMITEX89 is b5503f1a-efdb-3b53-8c91-411bd8517fa0
+[19:29:22] [Server thread/INFO]: SMITEX89 joined the game
+[19:29:22] [Server thread/INFO]: SMITEX89[/127.106.48.104:37983] logged in with entity id 824 at ([world]361.4104362767936, 63.0, -744.5071695448635)
+[19:29:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> back
+[19:29:31] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> wai9t waht
+[19:29:33] [Server thread/INFO]: SMITEX89 suffocated in a wall
+[19:29:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> WTH?
+[19:29:40] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> uh oh
+[19:29:45] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i am at spawn
+[19:29:48] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> bro, how did you die?
+[19:30:04] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i just joined and started suffocated
+[19:30:12] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> idk how
+[19:30:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> wth...
+[19:30:20] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> tell me cords
+[19:30:26] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> of village
+[19:30:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> angelchest should give you coords...
+[19:30:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> but well, lemme give it to you
+[19:30:53] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> yeah i got
+[19:30:57] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> no need
+[19:31:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Oh ok
+[19:31:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> angelchest tell you where you died
+[19:31:34] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> why it doesnt spawn me there lol
+[19:31:38] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> just kidding
+[19:31:46] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Too broken
+[19:31:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> set spawn with bed
+[19:34:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> smitex
+[19:34:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> YOUR ANGELCHEST
+[19:34:55] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> yeah?
+[19:34:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> GET IT
+[19:35:05] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> ??
+[19:35:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> The angelchest is going to dissapear in 4 minutes
+[19:35:27] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> you got my chest?
+[19:35:31] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> Not yet
+[19:35:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> please, get here fast
+[19:35:43] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> i am reachin fin minute
+[19:36:09] [Server thread/INFO]: [AngelChest] Xua057 opened the AngelChest of SMITEX89 at Location{world=CraftWorld{name=world},x=361.0,y=67.0,z=-745.0,pitch=0.0,yaw=0.0}
