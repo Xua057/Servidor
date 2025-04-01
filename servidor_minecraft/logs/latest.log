@@ -389,3 +389,56 @@
 [18:42:36] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> there must be some limit at some point tho
 [18:42:38] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> you can get what kind of people i am , but still if somebody injure me it wont be good for him
 [18:42:53] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> Ik
+[18:43:38] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> like if a under 18 hit me while riding bike , i wont hit him back instead i will explain him respectfully and will complain about him LOL
+[18:43:42] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> to police of
+[18:43:44] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> ofc
+[18:44:00] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> I would do that depending on the person
+[18:44:14] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> If I see he is changable, then I just recommend him
+[18:44:19] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> oh
+[18:44:19] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> else. He can fuck off
+[18:44:46] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> Smitex, what type of person do you think I am?
+[18:44:49] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> Be honest
+[18:45:27] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> a guy who study alot and inteligent and a guy who doesnt spend time on waste stuff
+[18:45:33] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> more
+[18:45:40] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> well i am going now
+[18:45:41] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> bye
+[18:45:41] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> thanks
+[18:45:45] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> Cya
+[18:45:49] [Server thread/INFO]: SMITEX89 lost connection: Disconnected
+[18:45:49] [Server thread/INFO]: SMITEX89 left the game
+[18:46:00] [Server thread/INFO]: Xua057 lost connection: Disconnected
+[18:46:00] [Server thread/INFO]: Xua057 left the game
+[18:46:03] [Server thread/INFO]: Stopping server
+[18:46:03] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
+[18:46:03] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.5.3
+[18:46:03] [Server thread/INFO]: Saving players
+[18:46:03] [Server thread/INFO]: Saving worlds
+[18:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saved 20 block chunks, 381 entity chunks, 0 poi chunks in world 'world' in 0.17s
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:46:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:46:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:46:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:46:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:46:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:46:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[18:46:03] [Server thread/INFO]: All I/O tasks to complete
+[18:46:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:46:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
