@@ -1,654 +1,143 @@
-[19:26:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[19:26:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[19:26:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[17:22:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[17:22:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[17:22:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:22:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[17:22:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - AngelChest (13.9.4), sleep-most (5.5.3)
-[19:26:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:26:52] [ServerMain/INFO]: Loaded 1337 recipes
-[19:26:52] [ServerMain/INFO]: Loaded 1448 advancements
-[19:26:53] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[19:26:53] [Server thread/INFO]: Loading properties
-[19:26:53] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[19:26:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:26:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:26:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:26:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:26:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:26:55] [Server thread/INFO]: Default game type: SURVIVAL
-[19:26:55] [Server thread/INFO]: Generating keypair
-[19:26:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:26:55] [Server thread/INFO]: Using epoll channel type
-[19:26:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:26:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:26:55] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
-[19:26:55] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
-[19:26:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:26:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:26:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:26:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:26:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:26:56] [Server thread/INFO]: Preparing level "world"
-[19:26:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:26:57] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:57] [Server thread/INFO]: Preparing spawn area: 2%
-[19:26:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[19:26:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 327.0ms
-[19:26:57] [Server thread/INFO]: Preparing spawn area: 12%
-[19:26:58] [Server thread/INFO]: Preparing spawn area: 24%
-[19:26:58] [Server thread/INFO]: Time elapsed: 1536 ms
-[19:26:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:26:58] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:58] [Server thread/INFO]: Time elapsed: 240 ms
-[19:26:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:26:58] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:58] [Server thread/INFO]: Time elapsed: 149 ms
-[19:26:58] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
-[19:26:58] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
-[19:26:59] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[19:26:59] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[19:26:59] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[19:26:59] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[19:26:59] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[19:27:00] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:27:00] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
-[19:27:00] [Server thread/INFO]: [spark] Starting background profiler...
-[19:27:00] [Server thread/INFO]: Done preparing level "world" (4.377s)
-[19:27:00] [Server thread/INFO]: Running delayed init tasks
-[19:27:00] [Server thread/INFO]: Done (17.837s)! For help, type "help"
-[19:27:03] [Server thread/INFO]: [AngelChest] ========================================================
-[19:27:03] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[19:27:03] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[19:27:03] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[19:27:03] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[19:27:03] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[19:27:03] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[19:27:03] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[19:27:03] [Server thread/INFO]: [AngelChest] 
-[19:27:03] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[19:27:03] [Server thread/INFO]: [AngelChest] ========================================================
-[19:27:13] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
-[19:27:14] [Server thread/INFO]: Xua057 joined the game
-[19:27:14] [Server thread/INFO]: Xua057[/127.5.31.25:54413] logged in with entity id 22 at ([world]245.85277810347742, 67.1212968405392, -696.8309826561274)
-[19:27:14] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d9c5c887-f0f8-4db6-878a-75821b566fec, mapped to Rabbit['Rabbit'/27, uuid='d9c5c887-f0f8-4db6-878a-75821b566fec', l='ServerLevel[world]', x=271.95, y=67.20, z=-683.44, cpos=[16, -43], tl=53111, v=true], can't add Rabbit['Rabbit'/30, uuid='d9c5c887-f0f8-4db6-878a-75821b566fec', l='ServerLevel[world]', x=272.11, y=67.00, z=-683.42, cpos=[17, -43], tl=53102, v=false]
-[19:27:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45ff8490-80fb-494a-8293-148fbcfdc234, mapped to Bat['Bat'/41, uuid='45ff8490-80fb-494a-8293-148fbcfdc234', l='ServerLevel[world]', x=274.88, y=-17.49, z=-656.74, cpos=[17, -42], tl=445, v=true], can't add Bat['Bat'/47, uuid='45ff8490-80fb-494a-8293-148fbcfdc234', l='ServerLevel[world]', x=276.12, y=-17.13, z=-655.47, cpos=[17, -41], tl=451, v=false]
-[19:27:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d09435d3-d3c8-4033-a8b9-c65a27c463cb, mapped to Villager['Farmer'/97, uuid='d09435d3-d3c8-4033-a8b9-c65a27c463cb', l='ServerLevel[world]', x=365.98, y=67.00, z=-705.52, cpos=[22, -45], tl=91945, v=true], can't add Villager['Farmer'/135, uuid='d09435d3-d3c8-4033-a8b9-c65a27c463cb', l='ServerLevel[world]', x=379.42, y=64.00, z=-717.47, cpos=[23, -45], tl=97941, v=false]
-[19:27:18] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7936a733-0451-4ece-ba3f-6d3ae37d1452, mapped to Pufferfish['Pufferfish'/225, uuid='7936a733-0451-4ece-ba3f-6d3ae37d1452', l='ServerLevel[world]', x=354.25, y=57.22, z=-815.25, cpos=[22, -51], tl=85, v=true], can't add Pufferfish['Pufferfish'/245, uuid='7936a733-0451-4ece-ba3f-6d3ae37d1452', l='ServerLevel[world]', x=355.07, y=58.29, z=-816.07, cpos=[22, -52], tl=102, v=false]
-[19:29:21] [User Authenticator #1/INFO]: UUID of player SMITEX89 is b5503f1a-efdb-3b53-8c91-411bd8517fa0
-[19:29:22] [Server thread/INFO]: SMITEX89 joined the game
-[19:29:22] [Server thread/INFO]: SMITEX89[/127.106.48.104:37983] logged in with entity id 824 at ([world]361.4104362767936, 63.0, -744.5071695448635)
-[19:29:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> back
-[19:29:31] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> wai9t waht
-[19:29:33] [Server thread/INFO]: SMITEX89 suffocated in a wall
-[19:29:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> WTH?
-[19:29:40] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> uh oh
-[19:29:45] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i am at spawn
-[19:29:48] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> bro, how did you die?
-[19:30:04] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i just joined and started suffocated
-[19:30:12] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> idk how
-[19:30:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> wth...
-[19:30:20] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> tell me cords
-[19:30:26] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> of village
-[19:30:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> angelchest should give you coords...
-[19:30:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> but well, lemme give it to you
-[19:30:53] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> yeah i got
-[19:30:57] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> no need
-[19:31:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Oh ok
-[19:31:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> angelchest tell you where you died
-[19:31:34] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> why it doesnt spawn me there lol
-[19:31:38] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> just kidding
-[19:31:46] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Too broken
-[19:31:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> set spawn with bed
-[19:34:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> smitex
-[19:34:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> YOUR ANGELCHEST
-[19:34:55] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> yeah?
-[19:34:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> GET IT
-[19:35:05] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> ??
-[19:35:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> The angelchest is going to dissapear in 4 minutes
-[19:35:27] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> you got my chest?
-[19:35:31] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> Not yet
-[19:35:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> please, get here fast
-[19:35:43] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> i am reachin fin minute
-[19:36:09] [Server thread/INFO]: [AngelChest] Xua057 opened the AngelChest of SMITEX89 at Location{world=CraftWorld{name=world},x=361.0,y=67.0,z=-745.0,pitch=0.0,yaw=0.0}
-[19:36:41] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> i can see you
-[19:36:58] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> I have put some of your stuff of the angelchest in the chest we have
-[19:37:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> the materials overall
-[19:37:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> right click
-[19:37:27] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> thanks
-[19:37:41] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> come here
-[19:37:42] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> see
-[19:38:06] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> yep, you mined
-[19:38:12] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> wth
-[19:38:16] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> its all filled
-[19:38:19] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> do you plan to do a palace?
-[19:38:29] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> no
-[19:38:33] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> ok
-[19:38:37] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> palace?
-[19:38:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> well, castle
-[19:38:52] [Async Chat Thread - #3/INFO]: [Not Secure] <SMITEX89> no its a house
-[19:39:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Xua057> ok
-[19:40:01] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> a good news
-[19:40:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> tell
-[19:40:11] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> 11 stock of sand stone
-[19:40:16] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> perfect
-[19:40:21] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> now 2 more stock needed
-[19:40:39] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> I need 5 beds :/
-[19:40:43] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> hey
-[19:40:46] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> we have tho
-[19:40:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> get them please
-[19:41:04] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> i have 4
-[19:41:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> why do you have by default 4 beds in your inventory?
-[19:41:35] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> i had wools i just created for you
-[19:41:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> cool
-[19:41:51] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> now we have 5
-[19:41:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> pass it to me please
-[19:42:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> ty
-[19:42:30] [Async Chat Thread - #5/INFO]: [Not Secure] <SMITEX89> np
-[19:42:37] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> eh,
-[19:42:43] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> lemme cook
-[19:42:43] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> they need some space lol
-[19:43:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> they are villages, Im not violating any human rights
-[19:43:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> villagers*
-[19:43:20] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> lol
-[19:43:40] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> we got no judiciary here so if we even violate no one to punish
-[19:44:07] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> perhaps God, but let just expect in heaven they do not count crimes in videogames
-[19:44:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Xua057> else Im cooked
-[19:44:19] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> lol
-[19:44:31] [Async Chat Thread - #4/INFO]: [Not Secure] <SMITEX89> why do i have silk touch in my inventory , lol
-[19:47:11] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> did you visit the village that is next to our
-[19:47:15] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> i mean you know it is here
-[19:47:16] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> I havent
-[19:47:21] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> it is big actually
-[19:47:25] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> it has 2 iron golems
-[19:47:29] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> Ik
-[19:48:25] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> you got wood?
-[19:48:29] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> some
-[19:48:40] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> 24 planks
-[19:48:44] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> give me 2 sticks
-[19:48:48] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> ok
-[19:49:13] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> eh
-[19:49:16] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> come ack
-[19:49:19] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> i am here
-[19:49:24] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> where?
-[19:49:30] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> i am villager torture chamber
-[19:49:34] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> at*
-[19:49:46] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> we dont have a torture chamber yet
-[19:49:54] [Async Chat Thread - #7/INFO]: [Not Secure] <SMITEX89> i jumped in when you was climbing stairs
-[19:50:01] [Async Chat Thread - #7/INFO]: [Not Secure] <Xua057> :/, ok
-[19:50:03] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> villagers trading base
-[19:50:53] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> what you planning?
-[19:51:03] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> villager farm
-[19:51:27] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> ok
-[19:51:37] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> i am going to get some wood
-[19:51:40] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> we need alot
-[19:51:41] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> ok
-[19:51:50] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> ok which wood you want in base?
-[19:51:55] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> spruce will be good
-[19:52:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> If its look good, then use it
-[19:52:14] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> agree
-[19:52:14] [Async Chat Thread - #6/INFO]: [Not Secure] <SMITEX89> but where will we get it from
-[19:52:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xua057> exploration
-[19:59:07] [Server thread/WARN]: Acacia Boat (vehicle of SMITEX89) moved wrongly! 0.47217929401313086
-[19:59:07] [Server thread/WARN]: Acacia Boat (vehicle of SMITEX89) moved wrongly! 0.7616246713434975
-[19:59:07] [Server thread/WARN]: Acacia Boat (vehicle of SMITEX89) moved wrongly! 1.0510700709196499
-[19:59:34] [Async Chat Thread - #8/INFO]: [Not Secure] <SMITEX89> i just found ruined portal
-[19:59:37] [Async Chat Thread - #8/INFO]: [Not Secure] <Xua057> cool
-[19:59:51] [Server thread/INFO]: SMITEX89 has made the advancement [Ice Bucket Challenge]
-[20:00:15] [Async Chat Thread - #8/INFO]: [Not Secure] <SMITEX89> a silk touch pick
-[20:01:23] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> oh no
-[20:01:25] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> sheesh
-[20:01:34] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> guess what?
-[20:01:44] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> what?
-[20:02:00] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> Smitex?
-[20:02:05] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> i found a village in normal biome
-[20:02:09] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> damn...
-[20:02:12] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> youre lucky
-[20:02:20] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> we will use another day that village
-[20:02:25] [Async Chat Thread - #10/INFO]: [Not Secure] <SMITEX89> but may be village isnt lucky
-[20:02:26] [Async Chat Thread - #10/INFO]: [Not Secure] <Xua057> do a screenshoot of the coordenates
-[20:02:35] [Async Chat Thread - #11/INFO]: [Not Secure] <SMITEX89> okay
-[20:03:44] [Async Chat Thread - #12/INFO]: [Not Secure] <SMITEX89> i am not looting village
-[20:03:49] [Async Chat Thread - #12/INFO]: [Not Secure] <SMITEX89> we both will do that some day
-[20:04:02] [Async Chat Thread - #12/INFO]: [Not Secure] <Xua057> Ok, that seems as a solid plan
-[20:04:09] [Async Chat Thread - #13/INFO]: [Not Secure] <SMITEX89> i am searching for spruce
-[20:05:50] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> oh nooo
-[20:05:55] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> another village
-[20:05:56] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> what happened?
-[20:06:03] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> More coordenates
-[20:06:06] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> yeah
-[20:06:09] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> more villages means more slaves.
-[20:06:17] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> we are nepolean now
-[20:06:25] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> i am travling with board
-[20:06:28] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> boat
-[20:06:39] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> this one have lava pool in it
-[20:06:45] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> lol
-[20:06:51] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> a pond
-[20:06:54] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> beautiful
-[20:07:11] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> ngl this one is beautiful
-[20:07:11] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> Im rn doing the breader
-[20:07:27] [Async Chat Thread - #14/INFO]: [Not Secure] <SMITEX89> get bread from another village it will be easy
-[20:07:41] [Async Chat Thread - #14/INFO]: [Not Secure] <Xua057> we have food for an apocalypse
-[20:10:04] [Async Chat Thread - #16/INFO]: [Not Secure] <SMITEX89> i found darr oak log biome
-[20:10:12] [Async Chat Thread - #16/INFO]: [Not Secure] <SMITEX89> yeah
-[20:10:34] [Async Chat Thread - #16/INFO]: [Not Secure] <Xua057> wait, Smitex, could you do me a favour?
-[20:10:44] [Async Chat Thread - #16/INFO]: [Not Secure] <SMITEX89> yeah?
-[20:10:44] [Async Chat Thread - #16/INFO]: [Not Secure] <Xua057> you have found a plane village
-[20:10:54] [Async Chat Thread - #16/INFO]: [Not Secure] <Xua057> Could you give me potatos from there?
-[20:10:59] [Async Chat Thread - #16/INFO]: [Not Secure] <SMITEX89> okay
-[20:11:30] [Async Chat Thread - #16/INFO]: [Not Secure] <Xua057> Im rn using a little bit of sand
-[20:13:34] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> i am 3k blocks away now
-[20:13:37] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> LOL
-[20:13:44] [Async Chat Thread - #18/INFO]: [Not Secure] <Xua057> be careful
-[20:13:58] [Async Chat Thread - #18/INFO]: [Not Secure] <SMITEX89> trying to
-[20:17:00] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> so Smitex, do you like this server that was literally hosted on github?
-[20:17:10] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> yeah
-[20:17:31] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> trust me, I didnt think it was possible.
-[20:17:42] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> me too
-[20:18:06] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> I didnt want to do another aternos server :/
-[20:18:27] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> we even now have to wait to make server
-[20:18:31] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> around hours
-[20:18:40] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> wait, thats true for aternos?
-[20:18:51] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> my friend told me
-[20:18:59] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> I did this server in 30 minutes max.
-[20:19:05] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> 12 GB of RAM
-[20:19:07] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> oh
-[20:19:12] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> lol
-[20:19:28] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> however, every 32 hours of use I need to change to another codespace
-[20:19:37] [Async Chat Thread - #20/INFO]: [Not Secure] <Xua057> and that takes me around, 5 minutes?
-[20:19:49] [Async Chat Thread - #20/INFO]: [Not Secure] <SMITEX89> not too bad
-[20:21:36] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> do you use shaders?
-[20:21:52] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> not really
-[20:22:03] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> found spruce?
-[20:22:28] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> no and i am getting dark oak now i alrd got 5 stack
-[20:22:35] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> good I guess
-[20:22:52] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> if you want to invite any of your friends, as they say, the more people, the more efficiency
-[20:23:05] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> but thats up to you
-[20:23:09] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> ok
-[20:23:30] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> do you remember farhan?
-[20:23:41] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> third member of our team
-[20:23:43] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> mmm... It sounds similar
-[20:23:49] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> wait, dont sleep yet
-[20:23:58] [Async Chat Thread - #22/INFO]: [Not Secure] <Xua057> dang
-[20:23:58] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> oh sry
-[20:24:03] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> i rode that
-[20:24:04] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> well, next night
-[20:24:23] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i talked to him after months today
-[20:24:31] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> what did he said?
-[20:24:38] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> he missed us
-[20:24:50] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> now I feel bad for not talking to him...
-[20:24:56] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> becuase i have lost my account
-[20:25:22] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> -_-
-[20:25:32] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> and that face, why?
-[20:25:43] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i ran out of iron
-[20:25:55] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> Live of the land
-[20:26:12] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> Napoleon troops literally ate whathever they found in the land they were invading
-[20:26:15] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> do that but for iron
-[20:26:36] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i will kill iron golem of that village
-[20:26:41] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> ok
-[20:27:06] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i studied about napoleon in 'france revolution' wbu?
-[20:27:19] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> Have you studied the Napoleonic wars?
-[20:27:26] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> 1813?
-[20:27:32] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> 1814 may be
-[20:27:34] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> more or les
-[20:27:49] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i havent studied avbout that
-[20:28:06] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> it was end pf chapter with napoleon lost war in 1814 or may be 15
-[20:28:49] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> have you ever tried red bull?
-[20:28:53] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> sometimes
-[20:29:09] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> i actually havent
-[20:29:45] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> my mom didnt let me
-[20:29:47] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> time to bring slaves to the breader
-[20:29:56] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> Better for your health
-[20:30:14] [Async Chat Thread - #22/INFO]: [Not Secure] <SMITEX89> better what , red bull or advice?
-[20:30:22] [Async Chat Thread - #23/INFO]: [Not Secure] <Xua057> the advice
-[20:30:32] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> a house burining in village
-[20:30:35] [Async Chat Thread - #23/INFO]: [Not Secure] <SMITEX89> becuase of lava
-[20:31:42] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> do you also need carrot?
-[20:31:47] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> if you can give me
-[20:31:50] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> better
-[20:32:03] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> i can
-[20:33:01] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> hey
-[20:33:06] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> what?
-[20:33:14] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> all stuff i collected to build base
-[20:33:20] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> yes?
-[20:33:27] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> is collected i mean
-[20:33:35] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> I do think that yes
-[20:33:46] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> and please, dont sleep this night
-[20:33:53] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> i will die if i dont
-[20:34:00] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> do fast
-[20:34:02] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> this tim
-[20:34:03] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> 2x1 hole.
-[20:34:07] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> do that
-[20:34:12] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> oh
-[20:34:21] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> i am at mid of ocean
-[20:34:22] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> hole in the ground and then sleep
-[20:34:29] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> i got it before too
-[20:35:19] [Server thread/INFO]: Villager Villager['Farmer'/97, uuid='d09435d3-d3c8-4033-a8b9-c65a27c463cb', l='ServerLevel[world]', x=304.59, y=62.00, z=-720.68, cpos=[19, -46], tl=167117, v=true] died, message: 'Farmer was slain by Husk'
-[20:35:20] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> hey , its night
-[20:35:24] [Async Chat Thread - #24/INFO]: [Not Secure] <Xua057> Ik
-[20:35:27] [Async Chat Thread - #24/INFO]: [Not Secure] <SMITEX89> ok
-[20:35:30] [Server thread/INFO]: Xua057 has made the advancement [Not Today, Thank You]
-[20:36:39] [Async Chat Thread - #26/INFO]: [Not Secure] <SMITEX89> there are 5 water zomvies following me
-[20:36:42] [Async Chat Thread - #26/INFO]: [Not Secure] <SMITEX89> or chasing me
-[20:36:44] [Async Chat Thread - #26/INFO]: [Not Secure] <Xua057> DO A HOLE
-[20:36:58] [Async Chat Thread - #26/INFO]: [Not Secure] <SMITEX89> a trident lol
-[20:37:59] [Async Chat Thread - #28/INFO]: [Not Secure] <Xua057> sleep
-[20:38:00] [Async Chat Thread - #29/INFO]: [Not Secure] <Xua057> NOW
-[20:40:13] [Async Chat Thread - #30/INFO]: [Not Secure] <Xua057> so Smitex, are you planning to build a damn mansion?
-[20:40:25] [Async Chat Thread - #30/INFO]: [Not Secure] <SMITEX89> yeah
-[20:40:38] [Async Chat Thread - #30/INFO]: [Not Secure] <SMITEX89> not that big chill
-[20:41:06] [Async Chat Thread - #30/INFO]: [Not Secure] <SMITEX89> minecraft builds required alot of blocked but they are actually nothiing accd to minecaft builds
-[20:41:41] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[20:41:41] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[20:41:57] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[20:41:57] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[20:42:24] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> wait what
-[20:42:34] [Async Chat Thread - #32/INFO]: [Not Secure] <Xua057> what happen?
-[20:42:47] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> nothing
-[20:43:30] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> no wayyy
-[20:43:32] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> i died
-[20:43:44] [Async Chat Thread - #32/INFO]: [Not Secure] <Xua057> In the chat theres not a message...
-[20:43:48] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> just kidding
-[20:43:54] [Async Chat Thread - #32/INFO]: [Not Secure] <Xua057> better
-[20:44:09] [Async Chat Thread - #32/INFO]: [Not Secure] <SMITEX89> i can see a jam jar
-[20:45:15] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> WTH?
-[20:45:47] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> here i can see whole drainage system
-[20:46:16] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> and my other villager?
-[20:46:31] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> oh, here he is
-[20:47:13] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> give me a bot, quick
-[20:47:18] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> boat*
-[20:47:22] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> i am here
-[20:47:29] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> here
-[20:47:36] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> get boat
-[20:47:38] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> i have
-[20:47:56] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> ty
-[20:48:00] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> inteligenci lvl
-[20:48:05] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> ignore spelling tho
-[20:48:21] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> wait
-[20:48:25] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> I habe water
-[20:48:38] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Ok, we must cover this and fast
-[20:48:48] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Im going to get glass, protect the zone
-[20:49:18] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> where you want me to build house>?
-[20:49:28] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> wherever you feel like you like it
-[20:49:47] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> because its a desert house
-[20:49:53] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> lets build it
-[20:50:21] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> do you have bones?
-[20:50:29] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> or a lot of potatos?
-[20:50:30] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> ofc
-[20:50:34] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> i am human
-[20:50:37] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Ok, I need it
-[20:50:41] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> wth
-[20:50:47] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> I need potatos
-[20:50:58] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> there were not alot
-[20:51:00] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> do you have bone meal?
-[20:51:13] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> yeah
-[20:52:10] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> place dirt here
-[20:52:34] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> now we need to get more bone meal or wait
-[20:52:49] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> may be wait
-[20:52:53] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> 2;00 am here
-[20:52:59] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> everyoine will start eating at 4
-[20:53:24] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> we got diamonds
-[20:53:41] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Ik, but I didnt want to spend it
-[20:53:48] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> well, lemme get a diamond pickaxe
-[20:54:14] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Its rn in Spain 21:54
-[20:54:24] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> break i
-[20:54:26] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> broke it
-[20:54:35] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> put dirt
-[20:54:39] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> sand
-[20:54:49] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> gimme dirt
-[20:54:52] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> atleast 4
-[20:55:02] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> ty
-[20:55:45] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> not even 11 pm there
-[20:55:48] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> lmao
-[20:55:52] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> damn
-[20:56:47] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> i got 1 stock sugar can
-[20:56:54] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> now we need a map seller villager
-[20:57:00] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> he will sell diamond for paper
-[20:57:03] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Smitex, I need 81 potatos atleast... damn
-[20:57:20] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> should we go to the nether?
-[20:57:21] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> its mea we actually need skeletons
-[20:57:30] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> not that earlier
-[20:58:03] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> well, this night is night of hunting mobs
-[20:58:14] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> make me a axe well
-[20:58:18] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Ok
-[20:59:00] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> I think the next project we need is an iron farm
-[20:59:12] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> wait
-[20:59:16] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> what?
-[20:59:16] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> iron farm
-[20:59:19] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> or iron mine
-[20:59:25] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> iron farm
-[20:59:30] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> we need fortune thats it
-[20:59:46] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> Im refering to a farm where we can obtain around 2K iron per hour
-[21:00:02] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> so we dont have any iron problems in a future
-[21:00:03] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> ok
-[21:00:08] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> eh see
-[21:00:15] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> it grew fast
-[21:00:20] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> yeah
-[21:00:24] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> dont sleep this night, we need to hunt mobs down
-[21:00:42] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> focus on skeletons
-[21:01:32] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> got onme
-[21:01:42] [Async Chat Thread - #34/INFO]: [Not Secure] <SMITEX89> got one*
-[21:01:45] [Async Chat Thread - #34/INFO]: [Not Secure] <Xua057> good
-[21:04:49] [Server thread/INFO]: SMITEX89 has made the advancement [Not Today, Thank You]
-[21:08:31] [Async Chat Thread - #36/INFO]: [Not Secure] <SMITEX89> where are you?
-[21:08:37] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> near the village
-[21:09:15] [Async Chat Thread - #36/INFO]: [Not Secure] <SMITEX89> its day now
-[21:10:10] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> got 20 bones
-[21:10:12] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> and you?
-[21:10:29] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> smitex?
-[21:10:30] [Async Chat Thread - #36/INFO]: [Not Secure] <SMITEX89> nice
-[21:10:41] [Async Chat Thread - #36/INFO]: [Not Secure] <SMITEX89> we alrd got 46 potatos
-[21:11:33] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> PERFECT
-[21:11:34] [Async Chat Thread - #36/INFO]: [Not Secure] <SMITEX89> so how many potatos we have now?
-[21:11:44] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> more than enough
-[21:11:49] [Async Chat Thread - #36/INFO]: [Not Secure] <Xua057> but wait
-[21:11:49] [Async Chat Thread - #37/INFO]: [Not Secure] <SMITEX89> nice
-[21:11:58] [Async Chat Thread - #37/INFO]: [Not Secure] <SMITEX89> you need to cook?
-[21:12:03] [Async Chat Thread - #37/INFO]: [Not Secure] <Xua057> nop
-[21:13:50] [Async Chat Thread - #38/INFO]: [Not Secure] <SMITEX89> let me start building house now
-[21:14:22] [Async Chat Thread - #38/INFO]: [Not Secure] <Xua057> but help me get out please
-[21:14:33] [Async Chat Thread - #38/INFO]: [Not Secure] <Xua057> Oh, no need
-[21:14:34] [Async Chat Thread - #38/INFO]: [Not Secure] <SMITEX89> okw\
-[21:14:37] [Async Chat Thread - #38/INFO]: [Not Secure] <SMITEX89> okay
-[21:15:41] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> finally
-[21:15:45] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> we have our slaves
-[21:15:52] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> now, let me create trapdoors
-[21:16:22] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> what about building here?
-[21:16:30] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> or in that big village?
-[21:16:31] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> near the sea?
-[21:16:38] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> yup
-[21:16:41] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> COOL
-[21:16:52] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> we could even build in a future some port
-[21:17:03] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> wait what
-[21:17:09] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> its raining
-[21:17:13] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> oh
-[21:17:22] [Async Chat Thread - #40/INFO]: [Not Secure] <Xua057> but remember, we are in desert
-[21:17:27] [Async Chat Thread - #40/INFO]: [Not Secure] <SMITEX89> ohhh
-[21:19:57] [Async Chat Thread - #42/INFO]: [Not Secure] <Xua057> sleep
-[21:20:04] [Async Chat Thread - #42/INFO]: [Not Secure] <SMITEX89> i got no bed
-[21:20:20] [Async Chat Thread - #42/INFO]: [Not Secure] <SMITEX89> what does it mean?
-[21:20:23] [Async Chat Thread - #42/INFO]: [Not Secure] <SMITEX89> its spanish right?
-[21:20:27] [Async Chat Thread - #42/INFO]: [Not Secure] <Xua057> eh, yes
-[21:21:28] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> we have the first baby villager
-[21:21:30] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> learning spanish means alot in india
-[21:21:35] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> nice
-[21:21:41] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> seriously?
-[21:21:44] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> yeah
-[21:21:49] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> why?
-[21:22:01] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> jon oportunities may be
-[21:22:15] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> india has 141 crore population
-[21:22:34] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> but youre on India, theres not a place that speak in spanish near the country
-[21:23:03] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> right?
-[21:23:09] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> they can shift to spain may be
-[21:23:28] [Async Chat Thread - #44/INFO]: [Not Secure] <SMITEX89> idk why but i have saw many tutions of english and spanish
-[21:23:42] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> really talked countries
-[21:23:46] [Async Chat Thread - #44/INFO]: [Not Secure] <Xua057> languages*
-[21:24:03] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> like english is a global language, thats why we are both communicating
-[21:24:10] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> yeah
-[21:24:18] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> and spanish, nearly all of south America talks it
-[21:24:29] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> Except Brasil and some other island
-[21:24:40] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:24:40] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:24:40] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> oh
-[21:24:50] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> america one was cool to be heard
-[21:24:54] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:24:54] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:25:01] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> if youre rich, then, yes
-[21:25:11] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> why tho?
-[21:25:26] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> the land of opportunities, died long ago
-[21:25:43] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> mean expensive lands?
-[21:25:52] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> its a metaphor
-[21:26:25] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> oh
-[21:26:49] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> It means that it used to be a country in which you had the chance of becoming rich, a land full of opoortunities, but nowadays, that place is no longer "the land of opportunities", because there are no real opportunities
-[21:27:06] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> and worse when you check out the president of USA rn
-[21:27:22] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> yeahhhhh
-[21:27:27] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> he got attitude
-[21:27:53] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> he got attitude, *proceed to basically expel inmigrants*
-[21:28:05] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> oh
-[21:28:13] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> going to america is my dream
-[21:28:23] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> *proceed to make hard as fuck to enter America*
-[21:28:28] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> the greencards
-[21:28:46] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> oh
-[21:28:50] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> bro, the greencards has a requirement where you atleast need to have 1 million dollars.
-[21:29:16] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:29:16] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:29:18] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> indians not allowed?
-[21:29:26] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> 1 million dollar
-[21:29:26] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:29:26] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:29:28] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> wth]
-[21:29:32] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> really
-[21:29:32] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> If youre rich, yes.
-[21:29:44] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> else, you aint entering into the USA
-[21:29:53] [Async Chat Thread - #45/INFO]: [Not Secure] <Xua057> even getting a VISA was hard enough
-[21:30:01] [Async Chat Thread - #45/INFO]: [Not Secure] <SMITEX89> lmao
-[21:31:20] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> I need to do a chamber where I can do our trading hall
-[21:31:45] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> oh
-[21:31:50] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> Smitex, how is the house going rn?
-[21:31:59] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> i am trying layout
-[21:32:03] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> Oh ok
-[21:32:03] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> you can have look
-[21:32:21] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> Oh, I dont need to, I trust you enough to know that youre cooking
-[21:32:34] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> ty
-[21:32:43] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> seems good
-[21:33:09] [Async Chat Thread - #46/INFO]: [Not Secure] <Xua057> if you can do a balcony where we can see the ocean, then its perfect for me
-[21:33:22] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> yeah i can
-[21:33:40] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:33:40] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:33:51] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:33:51] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:39:15] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:39:15] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:39:35] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:39:35] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:41:10] [Async Chat Thread - #48/INFO]: [Not Secure] <Xua057> mmm, when you finish the mansion I will do at one of the sides a mega farm of food
-[21:41:17] [Async Chat Thread - #48/INFO]: [Not Secure] <SMITEX89> okay
-[21:43:07] [Async Chat Thread - #50/INFO]: [Not Secure] <SMITEX89> layout finished
-[21:43:13] [Async Chat Thread - #50/INFO]: [Not Secure] <Xua057> goodf
-[21:47:05] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:47:05] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:47:16] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:47:16] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:48:29] [Async Chat Thread - #52/INFO]: [Not Secure] <Xua057> so, Smitex, what work do you want for the first slave?
-[21:48:42] [Async Chat Thread - #52/INFO]: [Not Secure] <SMITEX89> umm
-[21:48:59] [Async Chat Thread - #52/INFO]: [Not Secure] <SMITEX89> do any
-[21:49:16] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> Ok, let me get someone who sells iron
-[21:49:22] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> oh i got it
-[21:49:29] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> well
-[21:49:32] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> i need some chest here
-[21:50:15] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> I think you are going you use panel of glass
-[21:50:31] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> glass panels*
-[21:50:32] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> no
-[21:50:39] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> mmm, glass?
-[21:50:39] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> no glass going to be used
-[21:50:55] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> Im more confused than anything
-[21:51:04] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> lol
-[21:51:13] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> we need to somehow see the exterior, so what are you going to use instead?
-[21:51:24] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> i will build walls here
-[21:51:54] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> dw, its gonna look good
-[21:52:11] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> I know youre going to build walls, but Im talking about seeing the exterior, like being able to see from the inside the outside
-[21:52:14] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> LEMME GUESS
-[21:52:19] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> youre going to use trapdoors
-[21:52:40] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> wait can you see these holes?
-[21:52:57] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> yes
-[21:53:09] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> Ohhhh
-[21:53:13] [Async Chat Thread - #53/INFO]: [Not Secure] <Xua057> I understand it now
-[21:53:14] [Async Chat Thread - #53/INFO]: [Not Secure] <SMITEX89> yeah
-[21:53:45] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[21:53:45] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[21:53:56] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[21:53:56] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[21:56:37] [Async Chat Thread - #54/INFO]: [Not Secure] <Xua057> Smitex, do you have flint?
-[21:56:41] [Async Chat Thread - #54/INFO]: [Not Secure] <SMITEX89> yeah
-[21:56:49] [Async Chat Thread - #54/INFO]: [Not Secure] <SMITEX89> i have flint and steel
-[21:56:52] [Async Chat Thread - #54/INFO]: [Not Secure] <Xua057> give me 2 so I can start getting emeralds
-[21:57:31] [Async Chat Thread - #54/INFO]: [Not Secure] <SMITEX89> may be i dont
-[21:57:33] [Async Chat Thread - #54/INFO]: [Not Secure] <Xua057> LOL
-[21:57:36] [Async Chat Thread - #54/INFO]: [Not Secure] <SMITEX89> lol
-[21:57:36] [Async Chat Thread - #54/INFO]: [Not Secure] <Xua057> dw
-[21:59:35] [Async Chat Thread - #56/INFO]: [Not Secure] <Xua057> can you give me wood or I can cut this trees down?
-[21:59:55] [Async Chat Thread - #56/INFO]: [Not Secure] <SMITEX89> cut them down
-[22:02:49] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> i have to rebuild that wall
-[22:02:55] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> damn, why?
-[22:03:07] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> i need to expand layout
-[22:03:11] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> Ohhh
-[22:04:00] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> dude]
-[22:04:04] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> its time to suhoor
-[22:04:10] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> what is that?
-[22:04:32] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> mean i will eat to start fasting
-[22:04:40] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> Oh ok
-[22:04:42] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> eat
-[22:04:52] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> fast will be start at 5;00 am
-[22:05:01] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> and its 3;34
-[22:05:12] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> we are playing since 3 hours
-[22:05:23] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> Ik
-[22:05:24] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> so its 00;00 there
-[22:05:37] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> YO WHAT?
-[22:05:48] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> in spain?
-[22:06:09] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> In Spain is rn 23:06
-[22:06:15] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> oh
-[22:06:37] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> so good night
-[22:06:40] [Async Chat Thread - #58/INFO]: [Not Secure] <SMITEX89> bye
-[22:06:41] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> good night
-[22:06:43] [Async Chat Thread - #58/INFO]: [Not Secure] <Xua057> bye
-[22:06:45] [Server thread/INFO]: SMITEX89 lost connection: Disconnected
-[22:06:45] [Server thread/INFO]: SMITEX89 left the game
-[22:09:17] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
-[22:09:17] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
-[22:09:35] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
-[22:09:35] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
-[22:09:40] [Server thread/INFO]: Xua057 lost connection: Disconnected
-[22:09:40] [Server thread/INFO]: Xua057 left the game
-[22:09:44] [Server thread/INFO]: Stopping server
-[22:09:44] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
-[22:09:44] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.5.3
-[22:09:44] [Server thread/INFO]: Saving players
-[22:09:44] [Server thread/INFO]: Saving worlds
-[22:09:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 158 block chunks, 346 entity chunks, 4 poi chunks in world 'world' in 0.21s
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:09:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:09:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:09:44] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[22:09:44] [Server thread/INFO]: All I/O tasks to complete
-[22:09:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:09:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:22:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:22:50] [ServerMain/INFO]: Loaded 1337 recipes
+[17:22:51] [ServerMain/INFO]: Loaded 1448 advancements
+[17:22:51] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[17:22:51] [Server thread/INFO]: Loading properties
+[17:22:51] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[17:22:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:22:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:22:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:22:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:22:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:22:53] [Server thread/INFO]: Default game type: SURVIVAL
+[17:22:53] [Server thread/INFO]: Generating keypair
+[17:22:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:22:53] [Server thread/INFO]: Using epoll channel type
+[17:22:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:22:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:22:54] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.3
+[17:22:54] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[17:22:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:22:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:22:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:22:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:22:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:22:54] [Server thread/INFO]: Preparing level "world"
+[17:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:22:54] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:55] [Server thread/INFO]: Preparing spawn area: 2%
+[17:22:55] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[17:22:55] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 396.3ms
+[17:22:55] [Server thread/INFO]: Preparing spawn area: 2%
+[17:22:56] [Server thread/INFO]: Preparing spawn area: 57%
+[17:22:56] [Server thread/INFO]: Time elapsed: 1646 ms
+[17:22:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:22:56] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:56] [Server thread/INFO]: Time elapsed: 353 ms
+[17:22:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:22:56] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:56] [Server thread/INFO]: Time elapsed: 127 ms
+[17:22:56] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.3
+[17:22:57] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[17:22:57] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[17:22:57] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[17:22:57] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[17:22:57] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[17:22:58] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[17:22:58] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:22:58] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[17:22:58] [Server thread/INFO]: [spark] Starting background profiler...
+[17:22:58] [Server thread/INFO]: Done preparing level "world" (4.547s)
+[17:22:58] [Server thread/INFO]: Running delayed init tasks
+[17:22:58] [Server thread/INFO]: Done (18.721s)! For help, type "help"
+[17:23:01] [Server thread/INFO]: [AngelChest] ========================================================
+[17:23:01] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[17:23:01] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[17:23:01] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[17:23:01] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[17:23:01] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[17:23:01] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[17:23:01] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[17:23:01] [Server thread/INFO]: [AngelChest] 
+[17:23:01] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[17:23:01] [Server thread/INFO]: [AngelChest] ========================================================
+[17:24:16] [User Authenticator #0/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
+[17:24:18] [Server thread/INFO]: Xua057 joined the game
+[17:24:18] [Server thread/INFO]: Xua057[/127.5.31.25:47529] logged in with entity id 32 at ([world]319.5063203259153, 61.0, -709.2714030681174)
+[17:24:18] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f3acb007-2896-4176-a019-c8299f898577, mapped to Villager['Farmer'/50, uuid='f3acb007-2896-4176-a019-c8299f898577', l='ServerLevel[world]', x=301.67, y=61.94, z=-719.38, cpos=[18, -45], tl=1273314, v=true], can't add Villager['Farmer'/52, uuid='f3acb007-2896-4176-a019-c8299f898577', l='ServerLevel[world]', x=302.53, y=61.94, z=-721.09, cpos=[18, -46], tl=1273422, v=false]
+[17:24:25] [User Authenticator #0/INFO]: UUID of player SMITEX89 is b5503f1a-efdb-3b53-8c91-411bd8517fa0
+[17:24:27] [Server thread/INFO]: SMITEX89 joined the game
+[17:24:27] [Server thread/INFO]: SMITEX89[/127.106.48.104:39609] logged in with entity id 297 at ([world]235.51188259972471, 64.0, -744.3421830685738)
+[17:24:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> hey Smitex
+[17:24:45] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> hey?
+[17:24:48] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> how its goi
+[17:24:49] [Server thread/INFO]: SMITEX89 was slain by Husk
+[17:24:58] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> wtf?
+[17:25:02] [Async Chat Thread - #0/INFO]: [Not Secure] <SMITEX89> i was typing
+[17:25:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Xua057> Oh ok
+[17:26:55] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> we ran out of iron :|
+[17:26:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> first try, unbreaking III
+[17:27:02] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> nice
+[17:27:19] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> i can make you pc blast by breaking those chests
+[17:27:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> DONT
+[17:27:30] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> mine will too
+[17:27:35] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> who gonna
+[17:27:37] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> lol
+[17:28:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> Smitex
+[17:28:17] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> yeah?
+[17:28:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> we have iron for atleast 2 decades.
+[17:28:31] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> i am coming to see
+[17:28:38] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> i am burning stones
+[17:28:39] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> rn
+[17:29:04] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> have you ever play minecraft bedrock edition
+[17:29:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> I had
+[17:29:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> In fact, when I brought java
+[17:29:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> bought*
+[17:29:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> they gave me bedrock too
+[17:29:33] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> how much it cost you
+[17:29:41] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> like bedrock is so cheap in india
+[17:29:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> 20 euros, it was in discount
+[17:29:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> or less
+[17:29:50] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> oh
+[17:29:56] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> here its only 30rs rn
+[17:29:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> both versions
+[17:30:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> thats cheap or expensive there?
+[17:30:14] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> cheap alot
+[17:30:15] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> alo
+[17:30:17] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> alot
+[17:30:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> then, buy it one day tho
+[17:30:27] [Server thread/INFO]: Xua057 lost connection: Disconnected
+[17:30:27] [Server thread/INFO]: Xua057 left the game
+[17:30:27] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> less then a dollar
+[17:30:28] [User Authenticator #1/INFO]: UUID of player Xua057 is 419779e6-cb5f-343d-8cef-b421b7366189
+[17:30:29] [Server thread/INFO]: Xua057 joined the game
+[17:30:29] [Server thread/INFO]: Xua057[/127.5.31.25:39343] logged in with entity id 1432 at ([world]322.1423586769887, 63.0, -718.5528901486585)
+[17:30:36] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> less then a dollar
+[17:30:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> I have leave and rejoin to get a better ping
+[17:30:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> HOLY DAMN
+[17:30:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> BUY IT THEN
+[17:30:52] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> one dollar = 82 r
+[17:30:54] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> 82rs
+[17:31:02] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> you can get it know
+[17:31:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> BUT BRO, BUY MC THEN
+[17:31:07] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> now*
+[17:31:11] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> Ik
+[17:31:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> But I already have MC bought
+[17:31:19] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> i dont play minecraft bedrock
+[17:31:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> and java?
+[17:31:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> how expensive it is?
+[17:31:29] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> java is 2500k
+[17:31:31] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> rs
+[17:31:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> damn...
+[17:31:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> thats too much or still afordable for you?
+[17:31:52] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> mean like 1=82 so count 2500rs = ?dollars
+[17:32:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> 2500x82
+[17:32:07] [Async Chat Thread - #2/INFO]: [Not Secure] <SMITEX89> too much for me , i have never bought games
+[17:32:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> Perhaps its time to
+[17:32:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xua057> and no, I did the maths wrong

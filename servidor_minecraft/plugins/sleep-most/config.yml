@@ -36,14 +36,14 @@ sleep:
     prevent-phantom: false
     nightcycle-animation: false
     storm-sleep: true
-    skip-delay: 0
+    skip-delay: 5
     heal: false
     feed: false
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
     dynamic-animation-speed: false
-    disable-daylight-cycle-gamerule: true
+    disable-daylight-cycle-gamerule: false
     force-nightcycle-animation: true
     insomnia-chance: 0.0
     non-sleeping-title: false
