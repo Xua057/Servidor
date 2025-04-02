@@ -755,3 +755,8 @@
 [19:48:55] [Async Chat Thread - #46/INFO]: [Not Secure] <SMITEX89> cya
 [19:48:59] [Server thread/INFO]: SMITEX89 lost connection: Disconnected
 [19:48:59] [Server thread/INFO]: SMITEX89 left the game
+[19:55:23] [Server thread/INFO]: Xua057 issued server command: /gamemode spectator
+[19:55:23] [Server thread/INFO]: [Xua057: Set own game mode to Spectator Mode]
+[19:55:46] [Server thread/INFO]: Xua057 issued server command: /gamemode survival
+[19:55:46] [Server thread/INFO]: [Xua057: Set own game mode to Survival Mode]
+[20:01:25] [Server thread/INFO]: Villager Villager['Villager'/545, uuid='cea5bdb0-6b9c-4fd8-b65e-c631e1f2fea8', l='ServerLevel[world]', x=349.61, y=67.19, z=-736.96, cpos=[21, -47], tl=1576408, v=true] died, message: 'Villager was slain by Xua057'
